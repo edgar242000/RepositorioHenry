@@ -1,0 +1,102 @@
+  body{
+    background-color: rgb(25, 9, 94);
+  }
+
+  .title{
+    font-size: 1.5em;
+    color: crimson ;
+    margin-top: 3em;
+  }
+
+  .miTexto{
+    margin-top: 1em;
+
+  }
+
+  .title1{
+    font-size: 1.5em;
+    color: crimson ;
+  }
+
+  .title2{
+    font-size: 1.5em;
+    color: crimson ;
+    margin-top: 2em;
+  }
+
+  
+
+  .logo{
+    width: 200px;
+    height: 200px;
+  }
+
+  .cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 1em 1em 2em 1em;
+    border-radius: 10%;
+    transition: 1s;   
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+  
+  }
+
+  .cards:hover{
+    background-color: rgb(131, 44, 12);
+  }
+
+
+  #principal{
+    font-size: 2.5em;
+    text-align: center;
+  }     
+   
+ 
+
+  #soldadura{
+    color: brown;
+  }
+
+  #titulos{
+   
+    width: 60vw;
+    margin: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #cards-container{
+    background-color: rgb(0, 255, 136);
+    width: 85vw;
+    margin: auto;
+    margin-top: 3em;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  
+  a {
+    padding: 5px;
+  }
+  
+  a:hover {
+    background: rgb(124, 3, 3);
+    color: white;
+    text-decoration: none;
+  }
+  
+  .enlace{
+    margin-top: 2em;
+  }
+
+
+

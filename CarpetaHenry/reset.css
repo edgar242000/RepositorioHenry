@@ -1,0 +1,47 @@
+
+/*reset elimina todos los estilos pedeterminados de una pagina*/
+/*selector universal para aplicar estilos a todos los elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*aplicar estilos minimo al cuerpo del documento*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif; /*establecer una fuente generica para el cuerpo*/
+}
+
+
+/*corregir estilos para os elementos de las listas*/
+ul, ol{
+    list-style: lower-roman; /*eliminar los estilos de viñetas / numeros listas*/
+}
+
+
+/*establecer estilos basicos para los elementos del cuerpo*/
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*establecer estilos basicos para los enlaces
+a{
+    text-decoration: none;
+    color: inherit;
+}*/
+
+/*establecer estilos magicos para las imagenes*/
+img{
+    max-width: 100%; /* hacer que las imagenes sean responsivas dentro de su contenedor*/                                                                                                                                                                                                                                                                                
+    height: auto;
+}
+
+
+/*puedes agregar mas estilos segun tus necesidades*/
+
+
